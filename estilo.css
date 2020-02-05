@@ -1,0 +1,28 @@
+.bg{
+    background-color: steelblue;
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 1px;
+    cursor: pointer;
+    border: none;
+}
+
+.textView{
+    width: 215px;
+    height: 40px;
+    margin: 5;
+    font-size: 25px;
+    padding: 5;
+    color: #607d8b;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
