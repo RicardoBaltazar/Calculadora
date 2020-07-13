@@ -1,10 +1,11 @@
-import './index.css'
 import ReactDOM from 'react-dom'
 import React from 'react'
+import './index.css'
+import App from "./app"
 
-import Calculator from "./main/Calculator"
+
 
 ReactDOM.render(
-    <Calculator/>,
+    <App />,
     document.getElementById('root')
 )
