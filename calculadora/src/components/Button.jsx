@@ -2,7 +2,15 @@ import React from 'react'
 import "./button.css"
 
 export default function Button(props) {
+
+    var classes = 'button'
+    classes += props.operation ? 'operation' : ''
+    classes += props.double ? 'double' : ''
+    classes += props.triple ? 'triple' : ''
+
     return (
-        <button className="button">{props.label}</button>
+        <button className={classes}>
+            {props.label}
+        </button>
     )
 }

@@ -3,6 +3,7 @@ import React from 'react'
 import "./calculator.css"
 
 import Button from '../components/Button'
+import Display from "../components/Display"
 /*
 export default class Calculator extends Component {
     render () {
@@ -18,6 +19,7 @@ export default class Calculator extends Component {
 export default function Calculator () {
     return (
         <div className="calculator">
+            <Display value={100} />
             <Button label="AC"/>
             <Button label="/"/>
             <Button label="7"/>
